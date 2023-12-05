@@ -14,9 +14,9 @@ ingress:
   hostname: myproject.k8s-8.sa
 
 image:
-  repository: mazurovsasha/project
+  repository: ymazurau/project
   pullPolicy: IfNotPresent
-  tag: "1.0.22"
+  tag: "1.0.69"
 
 autoscaling:
   enabled: false
