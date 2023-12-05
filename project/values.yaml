@@ -1,6 +1,6 @@
 name: myproject
 port: 3000
-namespace: myproject
+namespace: project
 
 replicaCount: 2
 
