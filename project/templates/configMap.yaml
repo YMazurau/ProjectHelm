@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+  namespace: {{ .Values.namespace }}
+data:
+  DB_USER: {{ .Values.dbconfig.user }}
+  DB_HOST: {{ .Values.dbconfig.host | quote }}
+  DB_DATABASE: {{ .Values.dbconfig.database }}
+  DB_PORT: {{ .Values.dbconfig.port | quote }}
