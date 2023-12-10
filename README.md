@@ -1,6 +1,6 @@
 # Deployment
 
-The application is deployed into a prepared environment where ingress Controller, ArgoCD, monitoring utility (Grafana, Prometheus) are deployed.
+The application is deployed into a prepared environment where ingress controller, ArgoCD, monitoring utility (Grafana, Prometheus) are deployed.
 
 Deployment occurs automatically. After the “git action” is completed, the values.yaml file will be automatically updated with the Docker image tag and all necessary files will be checked by Helm Lint. 
 
