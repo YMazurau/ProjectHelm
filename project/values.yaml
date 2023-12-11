@@ -23,7 +23,7 @@ ingress:
 image:
   repository: ymazurau/project
   pullPolicy: IfNotPresent
-  tag: "1.0.90"
+  tag: "1.0.99"
 
 autoscaling:
   enabled: false
