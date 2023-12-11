@@ -31,7 +31,7 @@ For manifest-based or operator-based installation:
 
 ```
 kubectl patch secret argocd-notifications-secret -n argocd \
- --type merge --patch '{"stringData":{"slack-token": "xoxb-5996791930950-6321715852323-F6lBYmUlWdo5iRPM38QNc5WQ"}}'
+ --type merge --patch '{"stringData":{"slack-token": "xoxb-"}}'
 
 ```
 
